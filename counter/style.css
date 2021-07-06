@@ -1,0 +1,28 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(155, 146, 146);
+
+}
+
+
+.main{
+    text-align: center;
+    background-color:silver;
+    width: 70%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.btn{
+    border: 2px solid black;
+    font-size: 24px;
+    border-radius: 5px;
+    background-color:rgb(238, 223, 223);
+    margin-bottom: 15px;
+    padding: 10px;
+}
+#cont{
+    font-size: 58px;
+    padding: 10px;
+}

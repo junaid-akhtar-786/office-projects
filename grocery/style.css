@@ -1,0 +1,108 @@
+.main{
+    width: 100%;
+    margin: auto;
+    text-align: center ;
+    margin-top: 8rem;
+    /* border: 2px solid black; */
+}
+
+h3{
+    font-size: 2.2rem;
+}
+
+
+#grocery{
+    font-size: 28px;
+    border-radius: .5rem;
+    width: 13rem;
+    border:.25rem solid blue;
+    outline: none;
+    
+    
+    
+}
+.submit-btn{
+    background: none;
+    font-size: 20px;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    color: white;
+    background-color: blue;
+}
+
+.cont{
+    visibility: hidden;
+    margin-top: 2rem;
+}
+
+.show{
+    visibility: visible;
+    margin-top: 2rem;
+
+}
+
+
+
+.title{
+    font-size: 24px;
+
+}
+
+.items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-bottom: 0.5rem; */
+    /* padding: 0.25rem 1rem; */
+    text-transform: capitalize;
+    margin: 2rem;
+
+
+}
+
+
+.list{
+    width: 20rem;
+    margin: auto;
+    background-color: whitesmoke;
+    border-radius: 1rem;
+    /* margin-top: 1rem;
+    margin-bottom: 1rem; */
+
+
+}
+.btn{
+
+    padding: 0.5rem;
+    border-radius: 1rem;
+    font-size: 1.1rem;
+}
+.clear-btn{
+    padding: 0.5rem;
+    border-radius: 1rem;
+    font-size: 1.1rem;
+    background-color: rgb(204, 5, 5);
+    color: white;
+
+
+}
+
+.danger{
+    color: rgb(204, 5, 5);
+    padding: 1rem;
+    background-color:rgb(246, 170, 182);
+    align-items: center;
+    font-size: 2rem;
+    width: 21rem;
+    margin: auto;
+}
+
+.success{
+    color:rgb(0, 149, 0);
+    background-color:rgb(214, 214, 214);
+    padding: 1rem;
+    align-items: center;
+    font-size: 2rem;
+    width: 21rem;
+    margin: auto;
+}

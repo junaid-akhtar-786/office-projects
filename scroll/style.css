@@ -1,0 +1,185 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial;
+}
+/* .main-nav{
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+} */
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(66, 221, 174);
+    align-items: center;
+    height: 10rem;
+}
+
+.logo-cont img{
+    width: 12rem;
+    height: 10rem;
+    
+}
+
+.btn{
+     display: none;
+}
+
+
+
+.links{
+    display: flex;
+    height: auto;
+    list-style: none;
+    align-items: center;
+}
+.links a{
+    padding: 1.5rem;
+    align-items: center;
+    font-size: 1.9rem;
+    color: rgb(75, 75, 75);
+}
+a:link{
+    text-decoration: none;
+
+}
+.banner {
+    background-color: rgb(49, 151, 119);
+    display: grid;
+    text-align: center;
+    place-items: center;
+    height: 60rem;
+}
+.cont{
+    width: 50%;
+}
+.cont h1 {
+    font-size: 4rem;
+}
+
+
+
+.parag p {
+    font-size: 2rem;
+    
+}
+.tours{
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    color: honeydew;
+    border: 1px solid rgb(80, 79, 79);
+    background-color: rgb(45, 189, 145);
+
+}
+
+.section {
+    text-align: center;
+    
+}
+.section .title {
+    height: 100vh;
+    background-color: rgb(223, 222, 222)
+}
+.section .newbg{
+    background-color: white;
+}
+h2{
+    font-size: 3rem;
+    font-weight: bold;
+    padding-top: 1rem;
+    margin-top: 0%;
+}
+h2 span {
+    color: rgb(45, 189, 145);
+}
+.footer{
+    background-color: rgb(9, 44, 54);
+    /* padding: 1rem; */
+    text-align: center;
+    font-size: 2rem;
+    bottom: 0%;
+    height: 10rem;
+    align-items: center;
+    width: auto;
+}
+
+.para{
+    width: 40rem;
+    margin: auto;
+}
+.footer img{
+    width: 5rem;
+    top: 8rem;
+    
+
+}
+
+
+
+
+@media only screen and (max-width : 800px) {
+    .main{
+        max-width: 1200px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+        background-color:  rgb(34, 168, 128);
+        height: auto;
+    }
+    
+    
+
+    .btn{
+        display: inline;
+        background :none;
+        border: none;
+        margin-right: 1rem;
+    }
+
+    .btn img {
+        border: none;
+        width: 3rem;
+        
+    }
+
+    .logo-cont img{
+        width: 8rem;
+        height: 8rem;
+    }
+
+    .link-cont{
+        display: none;
+    }
+
+    .showlinks{
+        display: inline;
+        height: 10rem;
+        width: 100%;
+        top:8rem ;
+        position: absolute;
+        background-color: rgb(66, 221, 174);
+
+    }
+    .links{
+        display: block;
+    }
+.footer{
+    background-color: rgb(9, 44, 54);
+    padding: 1rem;
+    text-align: center;
+    font-size: 2rem;
+    bottom: 0%;
+    height: 20rem;
+    align-items: center;
+    width: auto;
+}
+.footer p{
+    width: 10rem;
+    margin: auto;
+}
+    
+}

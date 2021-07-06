@@ -1,0 +1,67 @@
+.heading{
+    text-align: center;
+    font-size: 44px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 1rem solid orange;
+    width: 20rem;
+    margin: auto;
+}
+
+.btns{
+    display: flex;
+    justify-content: space-around;
+    /* text-align: center; */
+    padding: .25rem;
+    width: 20rem;
+    margin: auto;
+    
+}
+.btns button{
+    font-size: 20px;
+    border-radius: 1rem;
+    padding: .5rem;
+    margin: 0.25rem;
+
+}
+.btns button:hover {
+    background-color: orange;
+}
+.all-main{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 1rem;
+}
+
+.card{
+    width: 30rem;
+    /* border: 1px solid black; */
+    text-align: center;
+    border-radius: 2rem;
+    margin: 2rem;
+
+}
+
+.card img{
+    width: 95%;
+    height: 20rem;
+    padding-top: 0.8rem;
+    border-radius: 2rem;
+    
+}
+.title{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+}
+
+.card h4{
+    
+    font-size: 24px;
+
+}
+.card p {
+    font-size: 20px;
+}

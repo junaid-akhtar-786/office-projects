@@ -1,0 +1,30 @@
+.main{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.result{
+    font-size: 2rem;
+}
+
+
+.main h3 {
+    font-size: 2rem;
+}
+
+.main label{
+    font-size: 2rem;
+}
+
+.main input{
+    font-size: 2rem;
+    width: 3rem;
+}
+
+.main button{
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: rgb(134, 134, 243);
+}

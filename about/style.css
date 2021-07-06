@@ -1,0 +1,151 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: whitesmoke;
+}
+
+.text-main{
+    text-align: center;
+    width: 100%;
+}
+.text-main h1{
+    font-size: 4rem;
+}
+
+.text-main p{
+    font-size: 2rem;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.text-main img{
+    width: 80%;
+    border-radius: 2rem;
+    margin: auto;
+}
+
+.main{
+    display: flex;
+    justify-content: space-around;
+}
+.btn-text{
+    width: 80%;
+    margin: auto;
+}
+
+
+
+.btn{
+    
+    background-color: whitesmoke;
+    text-align: center;
+    font-size: 1.5rem;
+    width: 10rem;
+    padding-left:4rem ;
+    padding-right: 8rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border: 1px solid;
+    background-color: rgb(185, 184, 184);
+    margin-right: -1rem;
+    
+    /* margin-left: -1rem; */
+
+    
+
+}
+
+
+.btn-main{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    margin-top: 1rem;
+    display: flex;
+
+}
+  
+.main-contain{
+    width: 57.9%;
+    margin: auto;
+    margin-top: -2rem;
+}
+
+.text {
+    padding: 1.5rem;
+    display: none;
+}
+.text h4 {
+    font-size: 2rem;
+    text-align: left;
+}
+
+.text p {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+
+.btn.active  {
+    background-color: white ;
+}
+
+.text.active{
+    background-color: white;
+    display: block;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .main{
+        display: block;
+        text-align: center;
+        width: 20rem;
+        margin: auto;
+        /* align-items: center; */
+    }
+    .text-main{
+        width: 20rem;
+        margin: auto;
+        margin-left: 2.5rem;
+    }
+
+    .text-main img {
+        width: 20rem;
+    }
+
+    .btn{
+    
+        background-color: whitesmoke;
+        text-align: center;
+        font-size: 1rem;
+        width: 1.8rem;
+        padding-left:2rem ;
+        padding-right: 6rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        border: 1px solid;
+        background-color: rgb(185, 184, 184);
+        /* margin-right: -1rem; */
+        margin-left: -1px;
+      }
+
+      .btn-main{
+        width: 20rem;
+        margin: auto;
+        text-align: center;
+        margin-top: 1rem;
+        display: flex;
+    
+    }
+
+    .main-contain{
+        width: 22rem;
+        margin: auto;
+        margin-top: -2rem;
+    }
+    
+
+    
+}
